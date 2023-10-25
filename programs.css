@@ -49,3 +49,15 @@ body {
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    .branch-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media query for devices with a max-width of 480px (typical phones) */
+@media only screen and (max-width: 480px) {
+    .branch-container {
+        grid-template-columns: 1fr;
+    }
+}
